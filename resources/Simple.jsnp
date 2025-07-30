@@ -1,0 +1,15 @@
+public void testMethod(){
+        int x = 10;
+        int y = 20;
+        int z = x + y;
+        x = x + y;
+        y = x > 10 ? 10 : 20;
+
+        List<Integer> list;
+        if (list instanceof ArrayList) {
+            for (int i = 0; i < 10; i++) {
+                System.out.println(i);
+            }
+        }
+
+}
