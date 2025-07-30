@@ -52,7 +52,7 @@ java -jar target/Readability-Analysis-1.0.jar preprocess \
 java -jar target/Readability-Analysis-1.0.jar preprocess \
   -s resources/snippets \
   -g resources/truth_scores.csv \
-  -t output.csv \
+  -t ./output.csv \
   LINES TOKEN_ENTROPY H_VOLUME CYCLOMATIC_COMPLEXITY
 ```
 
